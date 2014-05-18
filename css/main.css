@@ -1,0 +1,258 @@
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: medium;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 200%;
+  font-weight: 300;
+  margin: 0;
+  color: #000000;
+}
+a, a:hover, a:visited, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+#banner { /* Normal browser : no need to do a portrait version as this works well*/
+
+  position: relative; /* added relative position */
+  /*margin-left: 380px;*/	 /*comment out this line: will expand because of a tag */
+  /*margin-bottom: 300px;*/  /*comment out this line: will expand because of a tag */
+  display: block;
+  color: #7DCDF4;
+  width: 100%;
+  height: 300px; 
+}
+@media (max-width: 640px) and (orientation:landscape) { /* For mobile */
+	#banner {
+
+	  position: relative; /* added relative position */
+	  /*margin-left: 380px;*/	 /*comment out this line: will expand because of a tag */
+	  /*margin-bottom: 300px;*/  /*comment out this line: will expand because of a tag */
+	  display: block;
+	  color: #7DCDF4;
+	  width: 900px;
+	  height: 300px; 
+	}
+}
+
+h1 a, h1 a:hover {
+  margin:0;
+  font-weight:bold;
+  color:#000000;
+  font-size:28px;
+  text-decoration:none;
+}
+
+#banner a { /* changed to [#banner a] from [#banner h1 a] */
+  display: block;
+  background: transparent url(../img/daltic.png) no-repeat scroll center;
+  background-size: 45%;
+  font-size: 0;
+  width: 640px;
+  height: 300px;
+  margin: 0 auto; /* added margin 0 auto; to center */
+  background-color: white;
+}
+
+@media screen { /* Normal browser */
+	#main {
+	  font-weight:bold;
+	  position: relative; /* changed to relative from absolute */
+	  display: block;
+	  top: 50%;
+	  margin: 0;
+	  margin-top: 0px; /* changed to 0 from -100 */
+	  padding: 0;
+	  text-align: center;
+	  width: 100%;
+	  max-width: 2500px;
+    height: 800px;
+	  letter-spacing: 1px;
+    background-color: white;
+    z-index: 10;
+    border-bottom: 2px solid cornflowerblue;
+    overflow: hidden;
+	}
+
+  #main2 {
+    font-weight:bold;
+    position: relative; /* changed to relative from absolute */
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-top: 0px; /* changed to 0 from -100 */
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    max-width: 2500px;
+    letter-spacing: 1px;
+    background-color: #333;
+    background-image: url("../img/congruent_outline.png");
+    overflow: hidden;
+  }
+
+  .fixedcontent{
+
+    position: fixed;
+    left: 5%;
+    top: 30%;
+    width: 90%;
+    z-index: 1;
+
+  }
+
+
+  #main3 {
+    font-weight:bold;
+    position: relative; /* changed to relative from absolute */
+    display: block;
+    top: 50%;
+    margin: 0;
+    margin-top: 0px; /* changed to 0 from -100 */
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 2500px;
+    height: 600px;
+    letter-spacing: 1px;
+    background-color: #F5F5F5;
+    background-image: url("../img/crossword.png");
+    border-top: 2px solid coral;
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  .formstyle{
+    position: relative;
+    display: block;
+    width: 500px;
+  }
+
+  .formstyle input{
+    position: inline;
+    display: inline-block;
+
+    border-radius: 7px;
+    border: 1px solid #B5B5B5;
+    background-color: white;
+
+    width: 200px;
+    height: 36px;
+    margin: 10px 20px;
+
+    color: #858585;
+    font-family: "times new roman",arial;
+
+  }
+
+  .formstyle textarea{
+    position: relative;
+    display: block;
+
+    border-radius: 7px;
+    border: 1px solid #B5B5B5;
+    background-color: white;
+
+    width: 500px;
+    height: 200px;
+
+    color: #858585;
+    font-family: "times new roman",arial;
+  }
+
+  #contact-frame-right{
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+
+  #contact-frame-left{
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+
+}
+
+@media (max-width: 320px) and (orientation:portrait) { /* For mobile */
+	#main {
+	  font-weight:bold;
+	  position: relative; /* changed to relative from absolute */
+	  display: block;
+	  top: 50%;
+	  margin: 0;
+	  margin-top: 0px; /* changed to 0 from -100 */
+	  padding: 0;
+	  text-align: center;
+	  width: 640px;
+	  max-width: 2500px;
+	  letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 640px) and (orientation:landscape) { /* For mobile */
+	#main {
+	  font-weight:bold;
+	  position: relative; /* changed to relative from absolute */
+	  display: block;
+	  top: 50%;
+	  margin: 0;
+	  margin-top: 0px; /* changed to 0 from -100 */
+	  padding: 0;
+	  text-align: center;
+	  width: 900px;
+	  max-width: 2500px;
+	  letter-spacing: 1px;
+	}
+}
+
+#contact {
+  font-size: 100%;
+  padding: 25px;
+  font-weight: normal;
+}
+
+#contact a {
+  color: #000;
+  font-size: 110%;
+  border: 3px solid #7DCDF4;
+  border-radius: 4px;
+  padding: 7px 12px;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #7DCDF4;
+  border-color: #7DCDF4;
+}
+
+#footer {
+  color: #000000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px
+  text-align: center;
+}
+
+#footer a {
+  color: #000000;
+}
+
+html {
+  min-height: 100%;
+}
+
+

@@ -1,0 +1,48 @@
+.clear{
+	clear: both;
+}
+
+.section{
+
+	position: relative;
+	display: block;
+
+	min-height: 200px;
+	padding: 20px;
+
+}
+
+/*.section:nth-child(odd){
+	background-color: green;
+}
+.section:nth-child(even){
+	background-color: red;
+}*/
+
+.section:nth-child(odd) .image{
+
+	float: left;
+
+}
+
+.section:nth-child(even) .image{
+
+	float: right;
+
+}
+
+.section .image img{
+	width: 400px;
+}
+
+.section:nth-child(odd) .info{
+
+	float: right;
+
+}
+
+.section:nth-child(even) .info{
+
+	float: left;
+
+}

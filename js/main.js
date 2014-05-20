@@ -23,20 +23,11 @@ var chknav = function(){
 	}
 }
 
-var scrollmid = function(){ //1545
+var scrollmid = function(){
 
 	var sY = window.scrollY;
-
-	/*
-	if( sY > 740) {
-		var n = sY - 740;
-		n = ((n / 800.0) * 100.0) * 0.5;
-		el_fixedcontent.style.top = (n+10.0) + '%';
-	}
-	*/
-
-	var n = ((sY / sYMax) * 100.0) * 2.00;
-	el_fixedcontent.style.top = (120.0-n) + '%';
+	var n = ((sY / sYMax) * 100.0) * 3.00;
+	el_fixedcontent.style.top = (166.0-n) + '%';
 
 
 }
@@ -65,20 +56,9 @@ function slide_to_contact() {
 
 }
 
-
-/*if(a_home.addEventListener) {
-	a_home.addEventListener("onclick", slide_to_home, false);
-	a_about.addEventListener("onclick", slide_to_about, false);
-	a_contact.addEventListener("onclick", slide_to_contact, false);
-} else if(a_home.attachEvent) {
-	a_home.attachEvent("onclick", slide_to_home);
-	a_about.attachEvent("onclick", slide_to_about);
-	a_contact.attachEvent("onclick", slide_to_contact);
-} else {*/
-	a_home.onclick = slide_to_home;
-	a_about.onclick = slide_to_about;
-	a_contact.onclick = slide_to_contact;
-//}
+a_home.onclick = slide_to_home;
+a_about.onclick = slide_to_about;
+a_contact.onclick = slide_to_contact;
 
 setInterval( chknav, TIMESPEED );
 setInterval( scrollmid, TIMESPEED );

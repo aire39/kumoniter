@@ -25,8 +25,6 @@ a, a:hover, a:visited, a:active {
 #banner { /* Normal browser : no need to do a portrait version as this works well*/
 
   position: relative; /* added relative position */
-  /*margin-left: 380px;*/	 /*comment out this line: will expand because of a tag */
-  /*margin-bottom: 300px;*/  /*comment out this line: will expand because of a tag */
   display: block;
   color: #7DCDF4;
   width: 100%;
@@ -36,8 +34,6 @@ a, a:hover, a:visited, a:active {
 	#banner {
 
 	  position: relative; /* added relative position */
-	  /*margin-left: 380px;*/	 /*comment out this line: will expand because of a tag */
-	  /*margin-bottom: 300px;*/  /*comment out this line: will expand because of a tag */
 	  display: block;
 	  color: #7DCDF4;
 	  width: 900px;

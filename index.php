@@ -55,26 +55,47 @@
 
   <div id="main2">
 	
-	<div class="fixedcontent">
-		<h2 class="tagline">
-	     The key to student engagement & retention.
+	<div id="fixedcontent" class="fixedcontent">
+		<h2 style="margin-top: -50px; color: coral;">About</h2>
+		<h2 class="tagline" style="color: white;">
+	     We believe in bring Kumon Learning Centers into the 21st century.
+
+Kumonitor is an intuitive web application that helps Kumon instructors retain and motivate their students, while simplifying staff management.
 	    </h2>
-	    <p><h2 class="tagline">
-	      By<font color="#7DCDF4"> Kumon instructors</font> for <font color="#7DCDF4">Kumon instructors.</font>
+	    <p><h2 class="tagline" style="text-align: left; padding-left: 10px;">
+	     <font color="#7DCDF4"> Problems</font>
 	    </h2></p>
-	    <p id="contact">
-	      <a href="mailto:jndman@gmail.com?subject=Kumonitor Information Request&amp;body=Hello, I'm interested in learning more about Kumonitor .">
-	        Learn More
-	      </a>
-	    </p>
+
+	    	<ul style="margin: 0; padding: 0; margin-left: 45px; text-align: left; color: white; font-weight: normal; font-size: 18px;">
+				<li>Difficulty with student retention.</li>
+
+				<li>Lack of in-class motivation</li>
+
+				<li>Lack of parent accountability</li>
+
+				<li>Lack of student accountability</li>
+
+				<li>Inefficient method for recording employee work time.</li>
+	      </ul>
+
 		<p>
-			<h3 class="tagline">
-	     We are looking for beta testers. If you are a Kumon Instructor
-	    </h3></p>
-		<p>
-			<h3 class="tagline">
-	     click learn more or email us at <font color="#7DCDF4">donaldlander@ikumon.com</font>
-	    </h3></p>
+			<h2 class="tagline" style="text-align: left; padding-left: 10px; margin-top: 100px;">
+	     <font color="#7DCDF4">Solutions</font>
+	    </h2></p>		
+	     
+	    	<ul style="margin: 0;  padding: 0; margin-left: 45px; text-align: left; color: white; font-weight: normal; font-size: 18px;">
+				<li>Difficulty with student retention.</li>
+
+				<li>Lack of in-class motivation</li>
+
+				<li>Lack of parent accountability</li>
+
+				<li>Lack of student accountability</li>
+
+				<li>Inefficient method for recording employee work time.</li>
+	      </ul>
+
+	   
 	  </div>
   </div>
 
@@ -82,12 +103,14 @@
 
 	<div id="main3">
 
-		<div id="contact-frame-left">
+		<!--<div id="contact-frame-left">
 			<img style="width: 350px;" src="img/contact.jpg" />
-		</div>
+		</div>-->
 
 		<div id="contact-frame-right">
 			
+			<h2 style="margin-top: 10px;">Contact Us!</h2>
+
 			<form class="formstyle">
 				<input placeholder="  (Enter Name)" type="text" />
 				<input placeholder="  (Enter Email)" type="text" />

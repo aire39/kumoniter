@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="img/d.png">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 
   
   
@@ -47,7 +48,7 @@
     </h3></p>
 	<p>
 		<h3 class="tagline">
-     click learn more or email us at <font color="#7DCDF4">donaldlander@ikumon.com</font>
+     click learn more or email us at <font color="#7DCDF4">jay@kumonitor.com</font>
     </h3></p>
   </div>
 
@@ -56,17 +57,16 @@
   <div id="main2">
 	
 	<div id="fixedcontent" class="fixedcontent">
-		<h2 style="margin-top: -50px; color: coral;">About</h2>
-		<h2 class="tagline" style="color: white;">
+		<h2 class="tagline" style="color: black;">
 	     We believe in bring Kumon Learning Centers into the 21st century.
 
 Kumonitor is an intuitive web application that helps Kumon instructors retain and motivate their students, while simplifying staff management.
 	    </h2>
 	    <p><h2 class="tagline" style="text-align: left; padding-left: 10px;">
-	     <font color="#7DCDF4"> Problems</font>
+	     <font color="coral"> Problems</font>
 	    </h2></p>
 
-	    	<ul style="margin: 0; padding: 0; margin-left: 45px; text-align: left; color: white; font-weight: normal; font-size: 18px;">
+	    	<ul style="margin: 0; padding: 0; margin-left: 45px; text-align: left; color: black; font-weight: normal; font-size: 18px;">
 				<li>Difficulty with student retention.</li>
 
 				<li>Lack of in-class motivation</li>
@@ -76,23 +76,34 @@ Kumonitor is an intuitive web application that helps Kumon instructors retain an
 				<li>Lack of student accountability</li>
 
 				<li>Inefficient method for recording employee work time.</li>
+
+				<li>Difficulty with student retention.</li>
+
+				<li>Lack of in-class motivation</li>
+
+				<li>Lack of parent accountability</li>
+
+				<li>Lack of student accountability</li>
+
+				<li>Inefficient method for recording employee work time.</li>
+
 	      </ul>
 
 		<p>
 			<h2 class="tagline" style="text-align: left; padding-left: 10px; margin-top: 100px;">
-	     <font color="#7DCDF4">Solutions</font>
+	     <font color="coral">Solutions</font>
 	    </h2></p>		
 	     
-	    	<ul style="margin: 0;  padding: 0; margin-left: 45px; text-align: left; color: white; font-weight: normal; font-size: 18px;">
-				<li>Difficulty with student retention.</li>
+	    	<ul style="margin: 0;  padding: 0; margin-left: 45px; text-align: left; color: black; font-weight: normal; font-size: 18px;">
+				<li>Kumonitor maintains a dashboard and projectable graphic for students to compete with themselves for best worksheet outcomes.</li>
 
-				<li>Lack of in-class motivation</li>
+				<li>Kumonitor provides metrics to parents, as well as an at-home version to get parents involved with their child’s Kumon homework.</li>
 
-				<li>Lack of parent accountability</li>
+				<li>Kumonitor makes the students’ progress incredibly clear to them.</li>
 
 				<li>Lack of student accountability</li>
 
-				<li>Inefficient method for recording employee work time.</li>
+				<li>Kumonitor records employees work day with a simple check-in/ check out system.</li>
 	      </ul>
 
 	   
@@ -103,21 +114,19 @@ Kumonitor is an intuitive web application that helps Kumon instructors retain an
 
 	<div id="main3">
 
-		<!--<div id="contact-frame-left">
-			<img style="width: 350px;" src="img/contact.jpg" />
-		</div>-->
-
 		<div id="contact-frame-right">
 			
 			<h2 style="margin-top: 10px;">Contact Us!</h2>
+			<p>If you are a Kumon instructor, and are interested in beta-testing or have any questions or insights on how we can make our product better
+			don’t hesitate to call or message.</p>
 
-			<form class="formstyle">
-				<input placeholder="  (Enter Name)" type="text" />
-				<input placeholder="  (Enter Email)" type="text" />
+			<form method="post" action="sendmessage.php" class="formstyle">
+				<input name="name" placeholder="  (Enter Name)" type="text" />
+				<input name="email" placeholder="  (Enter Email)" type="text" />
 
-				<textarea placeholder="  (Write to us!)"></textarea>
+				<textarea name="text" placeholder="  (Write to us!)"></textarea>
 
-				<input type="submit" value="Send Message (Click!)" />
+				<input style="box-shadow: -2px 2px 2px -2px black;" type="submit" value="Send Message (Click!)" />
 			</form>
 
 		</div>
